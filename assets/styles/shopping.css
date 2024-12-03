@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 0 15px;
+    margin: auto;
+  }
+  @media (max-width: 991px) {
+    nav {
+      display: none;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container .logo a {
+    font-family: "Newsreader", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #426b1f;
+    line-height: 32px;
+    width: 151px;
+    letter-spacing: -1%;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li a {
+    padding: 0 15px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header nav ul li .cart-btn {
+    color: #ffff;
+    background-color: #426b1f;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-price {
+    color: #555;
+}
+
+.order-summary {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 15px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.checkout-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
